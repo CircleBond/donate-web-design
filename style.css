@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    margin: 0;
+    height: 100%;
+}
+
+
+.hero{
+    background-image: url(img/donation1.jpg);
+    /*background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); 
+    background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 745px
+}
+
+.hero .header{
+   text-align: center;
+   color: white;
+   padding: 250px 20px 20px 20px; 
+}
+
+.hero .header h1{
+    font-size: 4rem;
+    color: #fff;
+
+}
+
+.hero .header p span{
+    background-color: #771869;
+    padding: 10px;
+    color: #fff;
+
+    font-size: 16px;
+}
+
+.hero .header p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: rgb(231, 229, 229);
+}
+
+
+.donate{
+    height: 54px;
+    width: 144px;
+    font-size: 17px;
+    border: none;
+    color: #72186a;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.price .header{
+    text-align: center;
+}
+.price .header h1{
+    font-size: 44px;
+}
+
+.price .price-container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.price .price-container .price-box{
+    background-color: aliceblue;
+    padding: 20px 30px 20px 30px;
+    margin: 0 auto;
+
+}
+
+.focus-price{
+    background-color: rgb(183 110 255)!important;
+    color: white;
+}
+
+.price .price-form{
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.price .price-form form input{
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;   
+}
+.price .price-form form button{
+    float: right;
+
+}
+
+.donate-plan{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.donate-plan .header{
+    text-align: center;
+}
+
+.donate-plan .header h1{
+    font-size: 44px;
+}
+.donate-plan .plan-container{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.donate-plan .plan-container .plan-box{
+    width: 30%;
+    padding: 50px 20px 20px 20px;
+    margin-left: 20px;
+}
+.donate-plan .plan-container .plan-box h1{
+    font-size: 23px;
+}
+
+.box-1{
+    background-color: rgba(21, 161, 177, 0.1);
+}
+.box-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.box-3{
+    background-color:rgba(255, 244, 214, 1);
+}
+
+.photo-description{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.photo-description .title{
+    padding: 30px;
+}
+
+.photo-description .title h1{
+    font-size: 44px;
+}
+
+.photo-description .title p{
+    line-height: 28px;
+}
+
+.photo-description .half{
+    width: 50%;
+}
+.photo-description .photo{
+    padding: 30px;
+}
+.photo-description .photo img{
+    width: 100%;  
+}
+
+.photo-description .title button{
+    height: 54px;
+    width: 50%;
+    font-size: 17px;
+    border: none;
+    background-color: #72186a;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.update .header{
+    text-align: center;
+}
+.update .header h1{
+    font-size: 44px;
+}
+
+.update .update-box{
+    background-color: rgba(255, 244, 214, 1);
+    padding: 100px;
+    display: flex;
+ 
+}
+
+.update .update-box form{
+
+    margin: 0 auto;
+
+}
+
+
+.update .update-box input{
+    width: 400px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.update .update-box button{
+    height: 54px;
+    padding: 0px 50px 0px 50px;
+    font-size: 14px;
+    border: none;
+    background-color: #72186a;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    display: block;
+    background-color:#000;
+
+}
+.footer .header{
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .header h1{
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.footer .header p{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.top-partners{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.top-partners .header{
+    text-align: center;
+}
+
+.top-partners .header h1{
+    font-size: 44px;
+}
+
+.top-partners .partner-box{
+    display: flex;
+    margin-top: 50px;
+}
+
+.top-partners .partner{
+    padding: 50px;
+    width: 25%;
+}
+
+.top-partners .partner-box .partner img{
+    width: 70%;
+    cursor: pointer;
+}
